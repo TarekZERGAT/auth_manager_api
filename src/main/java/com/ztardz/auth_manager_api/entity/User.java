@@ -24,7 +24,6 @@ public class User {
     private User updated_by;
     private Date deleted_at;
     private User deleted_by;
-    private int i;
 
     public User(Long id, String login_user, String password_user, String name_user, byte enabled, Date created_at, User created_by, Date updated_at, User updated_by, Date deleted_at, User deleted_by) {
         this.id = id;
